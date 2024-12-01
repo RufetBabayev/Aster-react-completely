@@ -1,0 +1,29 @@
+.btn{
+    @apply flex py-0 justify-center items-center shrink-0
+}
+
+.btn--xs{
+    @apply h-[28px]
+}
+.btn--sm{
+    @apply h-[30px]
+}
+.btn--md{
+    @apply h-[32px]
+}
+.btn--lg{
+    @apply h-[38px]
+}
+.btn--rounded{
+    @apply rounded-theme
+}
+.btn--primary{
+    @apply bg-primary text-white
+}
+.btn--sky-blue{
+    @apply bg-skyBlue text-white
+}
+.btn--block{
+    @apply flex w-full
+}
+

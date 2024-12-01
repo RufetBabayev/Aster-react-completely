@@ -1,0 +1,7 @@
+.img-cover{
+    @apply size-full object-cover
+}
+.img-contain{
+    @apply size-full object-contain
+}
+

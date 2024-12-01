@@ -1,0 +1,52 @@
+  .ant-input{
+    @apply bg-[#ECF5F8]
+}
+.ant-modal-content{
+  @apply dark:!bg-[#22303c] dark:text-white dark:shadow-md
+}
+  .ant-modal .ant-btn{
+    @apply border border-skyBlue  dark:!bg-[#22303c] dark:text-white text-black
+  
+  }
+
+  .ant-dropdown{
+    inset: 0 3px auto auto !important;
+    @apply !top-[100px] lg:!top-[50px] fixed
+  }
+  .ant-form-item-control-input-content .ant-btn{
+  @apply bg-skyBlue text-yellow-50
+  }
+  .ant-switch{
+    @apply !bg-white
+  }
+  .ant-switch::before{
+    content: "Dark";
+    @apply text-[#22303c] ;
+  }
+  .ant-switch.ant-switch-checked{
+    @apply !bg-[#22303c] 
+  }
+  .ant-switch.ant-switch-checked:before{
+    @apply text-white ;
+    content: "Light";
+  }
+  .ant-switch-handle::before{
+    @apply border border-yellow-400 bg-day bg-center bg-contain bg-no-repeat
+  }
+  .ant-switch.ant-switch-checked .ant-switch-handle::before{
+    @apply border border-black bg-night bg-center bg-contain bg-no-repeat		 
+    
+  }
+  .ant-select{
+    @apply dark:!bg-[#ECF5F8] dark:text-white dark:shadow-md
+  }
+  .ant-select-dropdown{
+    @apply dark:!bg-gray-600
+  }
+
+  .ant-input-search-button{
+    @apply dark:!bg-gray-600 dark:!text-white
+  }
+  .ant-input{
+    @apply dark:!bg-gray-600 dark:text-white
+  }

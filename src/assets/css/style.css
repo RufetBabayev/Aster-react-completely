@@ -1,0 +1,33 @@
+body {
+  @apply bg-[#F4F9F8] overflow-x-hidden;
+  
+}
+.menu-link {
+  @apply flex items-center md:space-x-10 sm:justify-normal mr-2 justify-between lg:space-x-9 space-x-2 text-[17px] ;
+}
+.menu-link .active {
+  @apply border-b-2 border-skyBlue;
+}
+.right-section-cards {
+  @apply px-[15px] py-[14px] rounded-theme dark:border dark:border-gray-800;
+}
+
+label{
+  @apply dark:bg-[#22303c] dark:!text-white
+}
+
+.darkMode{
+  @apply dark:bg-[#22303c] dark:text-white dark:shadow-md
+}
+
+::-webkit-scrollbar {
+ @apply dark:bg-[#22303c]
+}
+
+::-webkit-scrollbar-track {
+  @apply  dark:bg-[#2c363f]
+}
+
+::-webkit-scrollbar-thumb {
+  @apply dark:bg-amberBlack border rounded-full
+}
